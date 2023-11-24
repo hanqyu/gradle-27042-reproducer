@@ -1,6 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    java
     `java-test-fixtures`
     kotlin("jvm") version "1.9.10" apply false
     kotlin("plugin.spring") version "1.9.10" apply false
